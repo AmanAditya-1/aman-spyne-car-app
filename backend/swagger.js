@@ -10,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:5000',
+        url: 'https://aman-spyne-car-app.onrender.com',
         description: 'Car Management API server',
       },
     ],
