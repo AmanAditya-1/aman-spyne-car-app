@@ -65,6 +65,8 @@ export default function CarList() {
             <CardHeader>
               <CardTitle>{car.title}</CardTitle>
             </CardHeader>
+            {
+              car.images.length > 0 && (
             <CardContent>
               <img 
                 src={car.images[0]?.url || '/placeholder.png'} 
@@ -83,6 +85,7 @@ export default function CarList() {
                 ))}
               </div>
             </CardContent>
+            )}
             <CardFooter>
               <Button asChild>
                 <Link to={`/cars/${car._id}`}>View Details</Link>
