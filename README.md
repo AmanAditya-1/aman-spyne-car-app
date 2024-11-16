@@ -3,6 +3,7 @@
 Car Management Application where users can create, view, edit, and delete cars. Each car can
 contain up to 10 images (specifically of a car), a title, a description and tags - car_type, company, dealer...etc . The application includes user authentication, allow users to manage only their products, and provide search functionality across products.
 
+https://github.com/user-attachments/assets/2bce0288-5a79-4268-a9bf-47b1fd118289
 
 ## Live Demo
 
